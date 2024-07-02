@@ -1,5 +1,5 @@
 import React from 'react';
-import LoaderImg from "../../images/Spinner@1x-1.0s-200px-200px.svg";
+import LoaderImg from '../../images/Spinner@1x-1.0s-200px-200px.svg';
 import "./Loader.css";
 
 const Loader = () => {
@@ -10,4 +10,4 @@ const Loader = () => {
   )
 }
 
-export default Loader
+export default Loader;

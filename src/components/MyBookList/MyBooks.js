@@ -19,11 +19,9 @@ const MyBooks = () => {
             <div className="book-details-content flex-column">
                 {bookList && bookList.map((book) => (
                     book && (
-
-    
                     <div key={book.id} className="book-details-content grid">
                         <div className="added-book-img">
-                        <img src={book.cover_img} alt={book.title} className="cover" />
+                        <img src={book?.cover_img} alt={book.title} className="cover" />
                         </div>
                         <div className="book-details-info">
                             <h3 className="book-details-item title">{book.title}</h3>

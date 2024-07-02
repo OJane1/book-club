@@ -1,0 +1,43 @@
+.book-details-content {
+    grid-template-columns: 20% 80%;
+}
+
+.book-details-content .grid {
+    padding-bottom: 2%;
+}
+.cover {
+    margin: 0 auto;
+    background-size: cover;
+    height: 100%;
+    object-fit: cover;
+    max-width: 200px;
+    transition: transform .3s;
+}
+
+.cover:hover {
+    transform: scale(1.1);
+}
+
+.book-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.books-info {
+    display: flex;
+    padding: 3rem 2rem;
+    gap: 3rem;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 1%;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 800px) {
+   
+}
+    

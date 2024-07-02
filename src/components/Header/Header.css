@@ -1,0 +1,18 @@
+
+.header-content{
+    min-height: 75vh;
+    background: url("../../images/books-on-hand.jpeg") center/cover no-repeat;
+    flex-direction: column;
+}
+.header-title{
+    font-size: 5.2rem;
+    color: rgb(33, 29, 22);
+}
+.header-text{
+    margin-top: -4.1rem;
+    margin-bottom: 25.8rem;
+    opacity: 0.8;
+    max-width: 770px;
+    color: rgb(33, 29, 22);
+    padding: 2rem 0 2rem 0;
+}

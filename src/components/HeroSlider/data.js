@@ -45,4 +45,4 @@ export const data = [
         source: "goodreads.com"
     }
 
-]
+];

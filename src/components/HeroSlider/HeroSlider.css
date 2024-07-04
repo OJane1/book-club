@@ -36,10 +36,10 @@
     display: inline-block;
 }
 
-.back {
-    background-image: url('/src/images/icons8-back-50.png');
-}
-
-.forward {
-    background-image: url('/src/images/icons8-next-50.png');
+.back, .forward {
+    width: 45px;
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
 }

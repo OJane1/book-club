@@ -2,6 +2,8 @@ import { useState } from "react";
 import { data } from "./data";
 import "./HeroSlider.css";
 import { useGlobalContext } from "../../context";
+import IconBack from "../../images/icons8-back-50.png";
+import IconForward from "../../images/icons8-next-50.png";
 
 
 function HeroSlider() {
@@ -64,8 +66,8 @@ function HeroSlider() {
       </div>
     </div>
     <div className="btn-container">
-    <button className="back" onClick={previousBook}></button>
-    <button className="forward" onClick={nextBook}></button>
+    <button className="back" onClick={previousBook} style={{ backgroundImage: `url(${IconBack})` }}></button>
+    <button className="forward" onClick={nextBook} style={{ backgroundImage: `url(${IconForward})` }}></button>
     </div>
     </div>
   );

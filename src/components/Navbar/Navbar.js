@@ -36,7 +36,7 @@ const Navbar = () => {
               <Link to = "trends" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1' onClick={closeNavbar}>trends</Link>
             </li>
             <li className='nav-item'>
-              <Link to = "my books" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1' onClick={closeNavbar}>my books</Link>
+              <Link to = "mybooks" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1' onClick={closeNavbar}>my books</Link>
             </li>
           </ul>
         </div>
